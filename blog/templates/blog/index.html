@@ -7,13 +7,13 @@
 
 {#    --------------------  ACTUS --------------------------------#}
 
-        <div class="last-news-col col-lg-6">
+        <div class="last-news-col col-lg-5">
             <h5>DERNIERES ACTUS</h5>
 
             {% for news in news %}
                 <div class="last-actus-cards container-fluid">
 
-                    <div class="last-actus-card card" style="width: 40rem;">
+                    <div class="last-actus-card card" style="width: 22rem;">
 
                         <div class="card-header-news">
                             <h4 class="card-title ">{{ news }}</h4>
@@ -26,8 +26,9 @@
                                 </div>
                             {% endif %}
                             <ul class="list-group list-group-flush">
-                                <li class="list-group-item">{{ news.content|linebreaks }}</li>
-
+                                <li class="list-group-item">{{ news.content|linebreaks|truncatewords:35 }}
+{#                                    <a href="{% url 'news' %}#{{ news.id }}"> suite</a>#}
+                                </li>
                                 <li class="list-group-item">
                                     <p class="card-date-add card-subtitle text-muted">Ajouté le {{ news.date_created }}</p>
                                 </li>
@@ -40,44 +41,49 @@
 
 {#----------------------------------  JEUX ------------------------------------#}
 
-        <div class="last-game-col col-lg-6">
-            <h5>DERNIERS JEUX AJOUTES</h5>
+            <div class="last-game-col col-lg-6">
+                <h5>DERNIERS JEUX AJOUTES</h5>
 
-            {% for game in games %}
-                <div class="last-games-cards container-fluid">
+                {% for game in games %}
+                    <div class="last-games-cards container-fluid">
 
-                    <div class="last-game-card card" style="width: 40rem;">
+                        <div class="last-game-card card" style="width: 30rem;">
 
-                        <div class="card-header-game">
+                            <div class="card-header-game">
 
-                            <div class="last-game-image">
-                                <img src="{{ game.image.url }}" class="img-fluid rounded-circle" alt="illustration jeu">
+                                <div class="last-game-image">
+                                    <img src="{{ game.image.url }}" class="img-fluid rounded-circle"
+                                         alt="illustration jeu">
+                                </div>
+                                <h4 class="card-title">{{ game }}</h4>
                             </div>
-                            <h3 class="card-title">{{ game }}</h3>
-                        </div>
 
-                        <div class="card-body">
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item">{{ game.description|linebreaks }}</li>
-                                <li class="list-group-item">
-                                    <p><span class="card-subtitle text-muted">Auteur : </span> {{ game.display_author }}</p>
-
-                                    <p ><span class="card-subtitle text-muted">Editeur : </span>
-                                        {% for editor in game.editor.all %}
-                                        <a href="{{editor.web_site}}" class="card-link">{{ editor }}</a>
-                                    {% endfor %}
-                                    <p ><span class="card-subtitle text-muted">Année : </span> {{ game.year }}</p>
-                                </li>
-                                <li class="list-group-item">
-                                    <p class="card-date-add card-subtitle text-muted">Ajouté le {{ game.date_created }}</p>
-                                </li>
-                            </ul>
+                            <div class="card-body">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">{{ game.description|linebreaks|truncatewords:20 }}
+                                        <a href="{% url 'ludotheque' %}#{{ game.id }}"> suite</a>
+                                    </li>
+{#                                    <li class="list-group-item">#}
+{#                                        <p><span#}
+{#                                                class="card-subtitle text-muted">Auteur : </span> {{ game.display_author }}#}
+{#                                        </p>#}
+{##}
+{#                                        <p><span class="card-subtitle text-muted">Editeur : </span>#}
+{#                                            {% for editor in game.editor.all %}#}
+{#                                                <a href="{{ editor.web_site }}" class="card-link">{{ editor }}</a>#}
+{#                                            {% endfor %}#}
+{#                                        <p><span class="card-subtitle text-muted">Année : </span> {{ game.year }}</p>#}
+{#                                    </li>#}
+                                    <li class="list-group-item">
+                                        <p class="card-date-add card-subtitle text-muted">Ajouté
+                                            le {{ game.date_created }}</p>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                </div>
-            {% endfor %}
-        </div>
-
+                {% endfor %}
+            </div>
     </div>
 
 </div>

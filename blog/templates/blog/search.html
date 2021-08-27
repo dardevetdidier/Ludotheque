@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+
+{% block title %}
+resultats recherche
+{% endblock %}
+
+
+{% block content %}
+
+    <div class="last-content container-fluid">
+    <div class="last-row row">
+
+        <div class="games-col-search col-lg-12">
+
+        {% if not games %}
+            <h5>Aucun résultat pour la recherche "{{ query_title }}"</h5>
+
+            <p><a href="{% url 'ludotheque' %}" role="button" class="back-btn btn btn-outline-dark">RETOUR</a></p>
+
+        {% else %}
+            <h5>Résultat(s) pour la recherche {{ title }}</h5>
+        {% endif %}
+
+            {% for game in games %}
+                <div class="last-games-cards container-fluid">
+
+                    <div class="last-game-card card" style="width: 50rem;">
+
+                        <div class="card-header-game" id="{{ game.id }}">
+
+                            <div class="last-library-image">
+                                <img src="{{ game.image.url }}" class="img-fluid rounded-circle" alt="illustration jeu">
+                            </div>
+                            <h4 class="card-title">{{ game }}</h4>
+                        </div>
+
+                        <div class="card-body">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">{{ game.description|linebreaks }}</li>
+                                <li class="list-group-item">
+                                    <p><span class="card-subtitle text-muted">Auteur : </span> {{ game.display_author }}</p>
+
+                                    <p ><span class="card-subtitle text-muted">Editeur : </span>
+                                        {% for editor in game.editor.all %}
+                                        <a href="{{editor.web_site}}" class="card-link">{{ editor }}</a>
+                                    {% endfor %}
+                                    <p ><span class="card-subtitle text-muted">Année : </span> {{ game.year }}</p>
+                                </li>
+                                <li class="list-group-item">
+                                    <p class="card-date-add card-subtitle text-muted">Ajouté le {{ game.date_created }}</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}

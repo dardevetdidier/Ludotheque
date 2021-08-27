@@ -7,20 +7,20 @@
 <div class="last-content container-fluid">
     <div class="last-row row">
 
-        <div class="last-game-col col-lg-12">
+        <div class="games-col col-lg-12">
             <h5>Tous les jeux</h5>
 
             {% for game in page_obj %}
                 <div class="last-games-cards container-fluid">
 
-                    <div class="last-game-card card" style="width: 60rem;">
+                    <div class="last-game-card card" style="width: 50rem;">
 
-                        <div class="card-header-game">
+                        <div class="card-header-game" id="{{ game.id }}">
 
                             <div class="last-library-image">
                                 <img src="{{ game.image.url }}" class="img-fluid rounded-circle" alt="illustration jeu">
                             </div>
-                            <h3 class="card-title">{{ game }}</h3>
+                            <h4 class="card-title">{{ game }}</h4>
                         </div>
 
                         <div class="card-body">
