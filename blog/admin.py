@@ -7,7 +7,7 @@ admin.site.register(Editor)
 
 @admin.register(Author)
 class AuthorAdmin(admin.ModelAdmin):
-    list_display = ['last_name', 'first_name', 'nationality']
+    list_display = ['last_name', 'first_name']
 
 
 @admin.register(Game)

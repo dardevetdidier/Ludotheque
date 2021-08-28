@@ -1,7 +1,7 @@
 from django.core.paginator import Paginator
 from django.shortcuts import render
 
-from .models import Game, all_games, all_news
+from .models import Game, all_games, all_news, News
 
 
 def index(request):
@@ -50,8 +50,25 @@ def search(request):
     return render(request, 'blog/search.html', context)
 
 
-def details(request, pk):
+def details_game(request, pk):
     game = Game.objects.get(id=pk)
+    return render(request, 'blog/details-game.html', {'game': game})
 
-    return render(request, 'blog/detail.html', {'game': game,
-                                                })
+
+def details_news(request, pk):
+    news = News.objects.get(id=pk)
+    return render(request, 'blog/details-news.html', {'news': news})
+
+
+def news_page(request):
+    news = all_news().order_by('-date_created')
+    news_num = news.count()
+
+    return render(request, 'blog/news.html', {'news': news,
+                                              'news_num': news_num})
+
+
+
+
+
+

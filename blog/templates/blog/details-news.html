@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+
+{% block title %}détails{% endblock %}
+
+{% block content %}
+<h5>DETAIL NEWS</h5>
+    <div class="last-actus-cards container-fluid">
+
+
+        <div class="last-actus-card card" style="width: 40rem;">
+
+            <div class="card-header-news">
+                <p class="card-title ">{{ news }}</p>
+            </div>
+
+            <div class="card-body">
+                {% if news.image %}>
+                    <div class="last-actu-image">
+                        <img src="" class="img-fluid rounded-circle" alt="illustration jeu">
+                    </div>
+                {% endif %}
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">{{ news.content|linebreaks }}</li>
+                    <li class="list-group-item">
+                        <p class="card-date-add card-subtitle text-muted">Ajoutée le {{ news.date_created }}</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="back-btn-detail">
+        <a href="{% url 'index' %}" role="button" class="back-btn btn btn-outline-dark">RETOUR</a>
+    </div>
+
+{% endblock %}

@@ -4,7 +4,6 @@ from django.db import models
 class Author(models.Model):
     first_name = models.CharField(max_length=100)
     last_name = models.CharField(max_length=100)
-    nationality = models.CharField(max_length=50)
 
     class Meta:
         ordering = ['last_name', 'first_name']  # classement dans la BD
@@ -33,11 +32,13 @@ class Editor(models.Model):
 
 
 class Game(models.Model):
+    LANGUAGES = [('fr', 'Francais'),
+                 ('en', 'Anglais')]
     title = models.CharField(max_length=150)
     description = models.TextField(max_length=2048, blank=True)
     author = models.ManyToManyField(Author)
     editor = models.ManyToManyField(Editor)
-    language = models.CharField(max_length=150, blank=True)
+    language = models.CharField(max_length=150, choices=LANGUAGES, blank=True)
     year = models.CharField(max_length=4)
     image = models.ImageField()
     date_created = models.DateTimeField(auto_now=True)

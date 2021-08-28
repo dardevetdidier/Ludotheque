@@ -18,7 +18,7 @@
                             <div class="last-library-image">
                                 <img src="{{ game.image.url }}" class="img-fluid rounded-circle" alt="illustration jeu">
                             </div>
-                            <h4 class="card-title">{{ game }}</h4>
+                            <p class="card-title">{{ game }}</p>
                         </div>
 
                         <div class="card-body">
@@ -29,7 +29,7 @@
 
                                     <p ><span class="card-subtitle text-muted">Editeur : </span>
                                         {% for editor in game.editor.all %}
-                                        <a href="{{editor.web_site}}" class="card-link">{{ editor }}</a>
+                                        <a href="{{editor.web_site}}" class="card-link" target="_blank">{{ editor }}</a>
                                     {% endfor %}
                                     <p ><span class="card-subtitle text-muted">Année : </span> {{ game.year }}</p>
                                 </li>
@@ -66,25 +66,25 @@
 {#        </nav>#}
 {#    </div>#}
     
+{#----------------- PAGINATION -----------------------------------#}
 
-        <div class="pagination container-fluid">
-            <div class="step-links d-flex">
-                <div>
+        <div class="pagination">
+            <div class="step-links">
+                <div class="arrows-pagination">
                     {% if page_obj.has_previous %}
                         <a href="?page=1"><i class="fas fa-fast-backward"></i></a>
                         <a href="?page={{ page_obj.previous_page_number }}"><i class="fas fa-step-backward"></i></a>
                     {% endif %}
                 </div>
                 <div class="current">
-                    <p>Page {{ page_obj.number }} / {{ page_obj.paginator.num_pages }}</p>
+                    <p>{{ page_obj.number }} / {{ page_obj.paginator.num_pages }}</p>
                 </div>
-                <div>
+                <div class="arrows-pagination">
                     {% if page_obj.has_next %}
                         <a href="?page={{ page_obj.next_page_number }} "> <i class="fas fa-step-forward"></i></a>
                         <a href="?page={{ page_obj.paginator.num_pages }} "> <i class="fas fa-fast-forward"></i></a>
                     {% endif %}
                 </div>
-
             </div>
         </div>
 

@@ -15,7 +15,6 @@ resultats recherche
         {% if not games %}
             <h5>Aucun résultat pour la recherche "{{ query_title }}"</h5>
 
-            <div id="back-btn"><a href="{% url 'ludotheque' %}" role="button" class="back-btn btn btn-outline-dark">RETOUR</a></div>
 
         {% else %}
             <h5>Résultat(s) pour la recherche {{ title }}</h5>
@@ -42,7 +41,7 @@ resultats recherche
 
                                     <p ><span class="card-subtitle text-muted">Editeur : </span>
                                         {% for editor in game.editor.all %}
-                                        <a href="{{editor.web_site}}" class="card-link">{{ editor }}</a>
+                                        <a href="{{editor.web_site}}" class="card-link" target="_blank">{{ editor }}</a>
                                     {% endfor %}
                                     <p ><span class="card-subtitle text-muted">Année : </span> {{ game.year }}</p>
                                 </li>
@@ -54,7 +53,10 @@ resultats recherche
                     </div>
                 </div>
             {% endfor %}
+            <div id="back-btn"><a href="{% url 'ludotheque' %}" role="button" class="back-btn btn btn-outline-dark">RETOUR</a></div>
+
         </div>
+
     </div>
 </div>
 

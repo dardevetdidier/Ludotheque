@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+
+{% block title %}news{% endblock %}
+
+{% block content %}
+
+    <h5 class="all-news-title">TOUTES LES NEWS ({{ news_num }})</h5>
+    {% for news in news %}
+    <div class="all-actus-cards container-fluid">
+
+        <div class="last-actus-card card" style="width: 40rem;">
+
+            <div class="card-header-news">
+                <div class="last-news-image">
+                    <i class="bi bi-newspaper"></i>
+                </div>
+                <p class="card-title ">{{ news }}</p>
+            </div>
+
+            <div class="card-body">
+                {% if news.image %}>
+                    <div class="last-actu-image">
+                        <img src="" class="img-fluid rounded-circle" alt="illustration jeu">
+                    </div>
+                {% endif %}
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">{{ news.content|linebreaks }}</li>
+                    <li class="list-group-item">
+                        <p class="card-date-add card-subtitle text-muted">Ajoutée le {{ news.date_created }}</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+    <div id="back-btn-detail">
+        <a href="{% url 'index' %}" role="button" class="back-btn btn btn-outline-dark">RETOUR</a>
+
+    </div>
+
+
+{% endblock %}

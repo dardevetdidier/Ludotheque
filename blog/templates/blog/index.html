@@ -13,9 +13,12 @@
             {% for news in news %}
                 <div class="last-actus-cards container-fluid">
 
-                    <div class="last-actus-card card" style="width: 22rem;">
+                    <div class="last-actus-card card" style="width: 30rem;">
 
                         <div class="card-header-news">
+                            <div class="last-news-image">
+                                <i class="bi bi-newspaper"></i>
+                            </div>
                             <p class="card-title ">{{ news }}</p>
                         </div>
 
@@ -27,10 +30,10 @@
                             {% endif %}
                             <ul class="list-group list-group-flush">
                                 <li class="list-group-item">{{ news.content|linebreaks|truncatewords:35 }}
-{#                                    <a href="{% url 'news' %}#{{ news.id }}"> suite</a>#}
+                                    <a href="{% url 'details-news' news.id %}"> suite</a>
                                 </li>
                                 <li class="list-group-item">
-                                    <p class="card-date-add card-subtitle text-muted">Ajouté le {{ news.date_created }}</p>
+                                    <p class="card-date-add card-subtitle text-muted">Ajoutée le {{ news.date_created }}</p>
                                 </li>
                             </ul>
                         </div>
@@ -41,7 +44,7 @@
 
 {#----------------------------------  JEUX ------------------------------------#}
 
-            <div class="last-game-col col-lg-6">
+            <div class="last-game-col col-lg-5">
                 <h5>DERNIERS JEUX AJOUTES</h5>
 
                 {% for game in games %}
@@ -62,7 +65,7 @@
                                 <ul class="list-group list-group-flush">
                                     <li class="list-group-item">{{ game.description|linebreaks|truncatewords:20 }}
 
-                                         <a href="{% url 'details' game.id %}"> suite</a>
+                                         <a href="{% url 'details-game' game.id %}"> suite</a>
 
                                     </li>
 {#                                    <li class="list-group-item">#}
