@@ -16,7 +16,7 @@
                     <div class="last-actus-card card" style="width: 22rem;">
 
                         <div class="card-header-news">
-                            <h4 class="card-title ">{{ news }}</h4>
+                            <p class="card-title ">{{ news }}</p>
                         </div>
 
                         <div class="card-body">
@@ -55,13 +55,15 @@
                                     <img src="{{ game.image.url }}" class="img-fluid rounded-circle"
                                          alt="illustration jeu">
                                 </div>
-                                <h4 class="card-title">{{ game }}</h4>
+                                <p class="card-title">{{ game }}</p>
                             </div>
 
                             <div class="card-body">
                                 <ul class="list-group list-group-flush">
                                     <li class="list-group-item">{{ game.description|linebreaks|truncatewords:20 }}
-                                        <a href="{% url 'ludotheque' %}#{{ game.id }}"> suite</a>
+
+                                         <a href="{% url 'details' game.id %}"> suite</a>
+
                                     </li>
 {#                                    <li class="list-group-item">#}
 {#                                        <p><span#}

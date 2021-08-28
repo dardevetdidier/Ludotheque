@@ -4,11 +4,9 @@
 
 {% block content %}
 
-<div class="last-content container-fluid">
-    <div class="last-row row">
+<div class="library-content container-fluid">
 
-        <div class="games-col col-lg-12">
-            <h5>Tous les jeux</h5>
+            <h5>Tous les jeux ({{ games_num }})</h5>
 
             {% for game in page_obj %}
                 <div class="last-games-cards container-fluid">
@@ -43,8 +41,7 @@
                     </div>
                 </div>
             {% endfor %}
-        </div>
-    </div>
+
 </div>
 {#    <div class="container-fluid">#}
 {#        <nav aria-label="...">#}

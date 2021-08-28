@@ -6,10 +6,10 @@ from .models import Game, all_games, all_news
 
 def index(request):
     """View function for home page"""
-    games = all_games()[:2]
+    games = all_games().order_by('-date_created')[:2]
     games_num = games.count()
 
-    news = all_news()[:3]
+    news = all_news().order_by('-date_created')[:2]
 
     context = {'games': games,
                'games_num': games_num,
@@ -21,12 +21,14 @@ def index(request):
 def game_library(request):
     """View function for ludotheque page"""
     games = all_games()
+    games_num = games.count()
     paginator = Paginator(games, 4)  # Show 4 games per page.
-
     page_number = request.GET.get('page')
     page_obj = paginator.get_page(page_number)
 
-    return render(request, 'blog/game_library.html', {'page_obj': page_obj})
+    return render(request, 'blog/game_library.html', {'page_obj': page_obj,
+                                                      'games_num': games_num,
+                                                      })
 
 
 def search(request):
@@ -46,3 +48,10 @@ def search(request):
     }
 
     return render(request, 'blog/search.html', context)
+
+
+def details(request, pk):
+    game = Game.objects.get(id=pk)
+
+    return render(request, 'blog/detail.html', {'game': game,
+                                                })

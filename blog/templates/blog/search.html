@@ -15,7 +15,7 @@ resultats recherche
         {% if not games %}
             <h5>Aucun résultat pour la recherche "{{ query_title }}"</h5>
 
-            <p><a href="{% url 'ludotheque' %}" role="button" class="back-btn btn btn-outline-dark">RETOUR</a></p>
+            <div id="back-btn"><a href="{% url 'ludotheque' %}" role="button" class="back-btn btn btn-outline-dark">RETOUR</a></div>
 
         {% else %}
             <h5>Résultat(s) pour la recherche {{ title }}</h5>

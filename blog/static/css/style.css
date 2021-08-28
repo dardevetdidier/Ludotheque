@@ -6,7 +6,6 @@ body {
 /*NAVBAR*/
 
 .navbar {
-    /*align-items: flex-end;*/
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
     padding-top: 7%;
@@ -21,6 +20,7 @@ body {
 .navbar a:hover {
     color: #d1d1d1;
 }
+
 .navbar-toggler-icon {
     color: black;
 }
@@ -57,7 +57,8 @@ h5 {
 }
 
 .last-content {
-    padding: 5% 20%;
+    padding: 0 20%;
+    margin: 3% 0 5% 0;
 }
 
 .last-row {
@@ -76,19 +77,19 @@ h5 {
 /*    overflow-y: scroll;*/
 /*}*/
 .last-game-col, .last-news-col {
-    height: 75vh;
+    /*height: 75vh;*/
     padding: 0;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);*/
 }
 .games-col, .news-col, .games-col-search {
     padding: 0;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
-.card-header-news {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+/*.card-header-news {*/
+/*    !*display: flex;*!*/
+/*    !*justify-content: center;*!*/
+/*    !*align-items: center;*!*/
+/*}*/
 
 .card-header-game {
     display: flex;
@@ -105,11 +106,12 @@ h5 {
     padding: 2% 0 2% 4%;
 }
 
-.card-header-game h4 {
+.card-header-game p {
     margin: 0 0 0 3%;
+    font-size: 1.2rem;
 }
 
-.card-header-news h4 {
+.card-header-news p {
     margin: 2% 0 2% 0;
 }
 
@@ -125,7 +127,7 @@ h5 {
 .last-game-image, .last-library-image {
     display: flex;
     align-items: center;
-    max-width: 20%;
+    max-width: 15%;
     margin-right: 1%;
 }
 
@@ -135,6 +137,10 @@ h5 {
 }
 
 /*LUDOTHEQUE*/
+
+.library-content {
+    padding: 0 20%;
+}
 
 .last-library-image {
     max-width: 12%;
@@ -177,6 +183,16 @@ h5 {
     border: #bababa 1px solid;
 }
 
-.games-col-search p{
+#back-btn {
     text-align: center;
+}
+
+/*DETAILS*/
+
+#back-btn-detail {
+    text-align: center;
+}
+
+.content-detail {
+    padding: 0 20%;
 }
