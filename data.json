@@ -1,0 +1,1700 @@
+[
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2021-08-25T18:37:19.414Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "1",
+        "object_repr": "Yossef Farhi",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2021-08-25T18:44:42.102Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "Alone Edition",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2021-08-25T18:47:02.127Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "1",
+        "object_repr": "Alone Editions",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2021-08-25T18:47:07.965Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "Alone Editions",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2021-08-25T18:57:21.297Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "The Road",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2021-08-25T19:24:22.770Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "2",
+        "object_repr": "Jon Mietling",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2021-08-25T19:25:09.731Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "Portal Dragon",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2021-08-25T19:25:38.709Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "2",
+        "object_repr": "Nuts",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2021-08-25T19:31:43.776Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "2",
+        "object_repr": "Palm Island",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2021-08-26T00:26:51.739Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "2",
+        "object_repr": "Palm Island",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description\", \"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2021-08-26T00:29:56.196Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "The Road",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Description\", \"Image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2021-08-26T09:08:54.506Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "3",
+        "object_repr": "Gary Arant",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2021-08-26T09:09:14.218Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "4",
+        "object_repr": "Justin Gary",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2021-08-26T09:10:23.943Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Ultra PRO",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2021-08-26T09:10:45.644Z",
+        "user": 1,
+        "content_type": 8,
+        "object_id": "3",
+        "object_repr": "Iello",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2021-08-26T09:12:19.641Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "3",
+        "object_repr": "Shards Of Infinity",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2021-08-26T09:34:10.660Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "Iello",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2021-08-26T09:35:08.446Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "3",
+        "object_repr": "Shards Of Infinity",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Editor\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2021-08-26T10:14:58.818Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "5",
+        "object_repr": "Nuts",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2021-08-26T10:15:09.430Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "2",
+        "object_repr": "Palm Island",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Editor\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2021-08-26T10:15:56.004Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "Iello",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Web site\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2021-08-26T10:16:52.615Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "Ultra PRO",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Web site\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2021-08-26T10:17:12.758Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "2",
+        "object_repr": "Portal Dragon",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Web site\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2021-08-26T10:17:31.788Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "1",
+        "object_repr": "Alone Editions",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Web site\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2021-08-26T10:28:23.894Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "4",
+        "object_repr": "Shards Of Infinity - Les Reliques du Futur",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2021-08-26T10:32:46.976Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "5",
+        "object_repr": "Chris Cieslik",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2021-08-26T10:34:00.385Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "5",
+        "object_repr": "One Deck Dungeon",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2021-08-26T10:35:56.222Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "1",
+        "object_repr": "The Road",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Editor\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2021-08-26T14:06:39.624Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "Blog en construction",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2021-08-26T14:24:09.058Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "Blog en construction",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Content\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2021-08-26T14:29:18.649Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "1",
+        "object_repr": "Blog en construction",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Content\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2021-08-26T17:18:30.805Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "2",
+        "object_repr": "La ludothèque prend forme",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2021-08-27T20:46:57.105Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "3",
+        "object_repr": "Une fonctionnalité de plus !",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2021-08-27T21:11:54.199Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "6",
+        "object_repr": "Darwin Castle",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2021-08-27T21:12:24.867Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "7",
+        "object_repr": "Rob Dougherty",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+        "action_time": "2021-08-27T21:24:52.165Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "6",
+        "object_repr": "Star Realms Frontières",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+        "action_time": "2021-08-28T08:56:32.251Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "7",
+        "object_repr": "Way of The Samurai",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+        "action_time": "2021-08-28T09:01:18.160Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "8",
+        "object_repr": "Corey Konieczka",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+        "action_time": "2021-08-28T09:04:48.380Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "6",
+        "object_repr": "FFG",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+        "action_time": "2021-08-28T09:05:09.040Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "8",
+        "object_repr": "Space Hulk - Death Angel",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+        "action_time": "2021-08-28T09:07:19.140Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "9",
+        "object_repr": "Yves Rosenbaum",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+        "action_time": "2021-08-28T09:07:47.739Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "10",
+        "object_repr": "Fred Navez",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+        "action_time": "2021-08-28T09:08:37.133Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "7",
+        "object_repr": "Schmeta Games",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+        "action_time": "2021-08-28T09:08:53.154Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "9",
+        "object_repr": "Gangsta!",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+        "action_time": "2021-08-28T09:13:56.270Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "11",
+        "object_repr": "Jordy Adan",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+        "action_time": "2021-08-28T09:16:02.787Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "8",
+        "object_repr": "Intrafin Games",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+        "action_time": "2021-08-28T09:16:11.706Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "10",
+        "object_repr": "Cartographers",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+        "action_time": "2021-08-28T18:20:18.266Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "11",
+        "object_repr": "blabal",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+        "action_time": "2021-08-28T18:21:17.953Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "11",
+        "object_repr": "blabal",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+        "action_time": "2021-08-29T13:24:03.340Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "12",
+        "object_repr": "Antonin Boccara",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+        "action_time": "2021-08-29T13:25:30.681Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "9",
+        "object_repr": "Oldchap Games",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+        "action_time": "2021-08-29T13:32:27.401Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "12",
+        "object_repr": "Les pierres de Coba",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+        "action_time": "2021-08-29T13:39:10.997Z",
+        "user": 1,
+        "content_type": 10,
+        "object_id": "13",
+        "object_repr": "A. J. Porfirio",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+        "action_time": "2021-08-29T13:40:27.090Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "10",
+        "object_repr": "Don't Panic Games",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+        "action_time": "2021-08-29T13:41:07.207Z",
+        "user": 1,
+        "content_type": 11,
+        "object_id": "13",
+        "object_repr": "Négociateur  : Prise d'otages",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+        "action_time": "2021-08-29T13:54:09.984Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "4",
+        "object_repr": "Page des News FAIT !",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+        "action_time": "2021-08-29T13:55:00.373Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "4",
+        "object_repr": "Page des News FAITE!",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+        "action_time": "2021-08-29T13:55:29.072Z",
+        "user": 1,
+        "content_type": 12,
+        "object_id": "4",
+        "object_repr": "Page des News FAITE !",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+        "name": "Can add log entry",
+        "content_type": 1,
+        "codename": "add_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+        "name": "Can change log entry",
+        "content_type": 1,
+        "codename": "change_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+        "name": "Can delete log entry",
+        "content_type": 1,
+        "codename": "delete_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+        "name": "Can view log entry",
+        "content_type": 1,
+        "codename": "view_logentry"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+        "name": "Can add permission",
+        "content_type": 2,
+        "codename": "add_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+        "name": "Can change permission",
+        "content_type": 2,
+        "codename": "change_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+        "name": "Can delete permission",
+        "content_type": 2,
+        "codename": "delete_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+        "name": "Can view permission",
+        "content_type": 2,
+        "codename": "view_permission"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+        "name": "Can add group",
+        "content_type": 3,
+        "codename": "add_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+        "name": "Can change group",
+        "content_type": 3,
+        "codename": "change_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+        "name": "Can delete group",
+        "content_type": 3,
+        "codename": "delete_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+        "name": "Can view group",
+        "content_type": 3,
+        "codename": "view_group"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+        "name": "Can add user",
+        "content_type": 4,
+        "codename": "add_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+        "name": "Can change user",
+        "content_type": 4,
+        "codename": "change_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+        "name": "Can delete user",
+        "content_type": 4,
+        "codename": "delete_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+        "name": "Can view user",
+        "content_type": 4,
+        "codename": "view_user"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+        "name": "Can add content type",
+        "content_type": 5,
+        "codename": "add_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+        "name": "Can change content type",
+        "content_type": 5,
+        "codename": "change_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+        "name": "Can delete content type",
+        "content_type": 5,
+        "codename": "delete_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+        "name": "Can view content type",
+        "content_type": 5,
+        "codename": "view_contenttype"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+        "name": "Can add session",
+        "content_type": 6,
+        "codename": "add_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+        "name": "Can change session",
+        "content_type": 6,
+        "codename": "change_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+        "name": "Can delete session",
+        "content_type": 6,
+        "codename": "delete_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+        "name": "Can view session",
+        "content_type": 6,
+        "codename": "view_session"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+        "name": "Can add editor",
+        "content_type": 7,
+        "codename": "add_editor"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+        "name": "Can change editor",
+        "content_type": 7,
+        "codename": "change_editor"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+        "name": "Can delete editor",
+        "content_type": 7,
+        "codename": "delete_editor"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+        "name": "Can view editor",
+        "content_type": 7,
+        "codename": "view_editor"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+        "name": "Can add distributor",
+        "content_type": 8,
+        "codename": "add_distributor"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+        "name": "Can change distributor",
+        "content_type": 8,
+        "codename": "change_distributor"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+        "name": "Can delete distributor",
+        "content_type": 8,
+        "codename": "delete_distributor"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+        "name": "Can view distributor",
+        "content_type": 8,
+        "codename": "view_distributor"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+        "name": "Can add extension",
+        "content_type": 9,
+        "codename": "add_extension"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+        "name": "Can change extension",
+        "content_type": 9,
+        "codename": "change_extension"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+        "name": "Can delete extension",
+        "content_type": 9,
+        "codename": "delete_extension"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+        "name": "Can view extension",
+        "content_type": 9,
+        "codename": "view_extension"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+        "name": "Can add author",
+        "content_type": 10,
+        "codename": "add_author"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+        "name": "Can change author",
+        "content_type": 10,
+        "codename": "change_author"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+        "name": "Can delete author",
+        "content_type": 10,
+        "codename": "delete_author"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+        "name": "Can view author",
+        "content_type": 10,
+        "codename": "view_author"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+        "name": "Can add game",
+        "content_type": 11,
+        "codename": "add_game"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+        "name": "Can change game",
+        "content_type": 11,
+        "codename": "change_game"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+        "name": "Can delete game",
+        "content_type": 11,
+        "codename": "delete_game"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+        "name": "Can view game",
+        "content_type": 11,
+        "codename": "view_game"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+        "name": "Can add news",
+        "content_type": 12,
+        "codename": "add_news"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+        "name": "Can change news",
+        "content_type": 12,
+        "codename": "change_news"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+        "name": "Can delete news",
+        "content_type": 12,
+        "codename": "delete_news"
+    }
+},
+{
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+        "name": "Can view news",
+        "content_type": 12,
+        "codename": "view_news"
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$260000$XjkPO4qVp5Da5CgmGZ7TUQ$h2hHtrvTXj9jbHWh7AUPBiqaUJtNO7c0mUWgXR4TXk8=",
+        "last_login": "2021-08-29T13:11:09.852Z",
+        "is_superuser": true,
+        "username": "ddard",
+        "first_name": "",
+        "last_name": "",
+        "email": "ddard@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2021-08-25T18:29:06.707Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "2xtak3ik4ncjc2qm8rkdgn20p2h9q2qe",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2pBCAR2X7nsGMsMMUjU0Ke3KeHfbpAvd_vfef6uI61Li2mSOI6urMur0uxGmp9Qd8APrfdJpqss8kt4VfdCmh4nldTvcv4OCrWx1RkrkM0Py_ixyAZMYBa1nYz0FCOxCBnA2bw52BoP0PRJAZ3JyQOrzBR54OQI:1mIxh6:n928ssVJtm7hTi9O1PZPG5UkAyUf4GP9CFU33uGjyeM",
+        "expire_date": "2021-09-08T18:32:12.397Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "xzx8pvk652zn1r9cf2lbcs96zbwpxv7x",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2pBCAR2X7nsGMsMMUjU0Ke3KeHfbpAvd_vfef6uI61Li2mSOI6urMur0uxGmp9Qd8APrfdJpqss8kt4VfdCmh4nldTvcv4OCrWx1RkrkM0Py_ixyAZMYBa1nYz0FCOxCBnA2bw52BoP0PRJAZ3JyQOrzBR54OQI:1mJFv7:vQ-D4YzpoA2uluGqTwa9_eyUDMcoZ28yYMd5uw4vP-g",
+        "expire_date": "2021-09-09T13:59:53.843Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "ygvlm8cpx94mvggtj2c8a386er4rsgci",
+    "fields": {
+        "session_data": ".eJxVjEEOwiAQRe_C2pBCAR2X7nsGMsMMUjU0Ke3KeHfbpAvd_vfef6uI61Li2mSOI6urMur0uxGmp9Qd8APrfdJpqss8kt4VfdCmh4nldTvcv4OCrWx1RkrkM0Py_ixyAZMYBa1nYz0FCOxCBnA2bw52BoP0PRJAZ3JyQOrzBR54OQI:1mKKab:ofyOH7dXaeKkCFgWc5Q25ba7_qexYBmMEMgUqz804Oc",
+        "expire_date": "2021-09-12T13:11:09.948Z"
+    }
+},
+{
+    "model": "blog.author",
+    "pk": 1,
+    "fields": {
+        "first_name": "Yossef",
+        "last_name": "Farhi"
+    }
+},
+{
+    "model": "blog.author",
+    "pk": 2,
+    "fields": {
+        "first_name": "Jon",
+        "last_name": "Mietling"
+    }
+},
+{
+    "model": "blog.author",
+    "pk": 3,
+    "fields": {
+        "first_name": "Gary",
+        "last_name": "Arant"
+    }
+},
+{
+    "model": "blog.author",
+    "pk": 4,
+    "fields": {
+        "first_name": "Justin",
+        "last_name": "Gary"
+    }
+},
+{
+    "model": "blog.author",
+    "pk": 5,
+    "fields": {
+        "first_name": "Chris",
+        "last_name": "Cieslik"
+    }
+},
+{
+    "model": "blog.author",
+    "pk": 6,
+    "fields": {
+        "first_name": "Darwin",
+        "last_name": "Castle"
+    }
+},
+{
+    "model": "blog.author",
+    "pk": 7,
+    "fields": {
+        "first_name": "Rob",
+        "last_name": "Dougherty"
+    }
+},
+{
+    "model": "blog.author",
+    "pk": 8,
+    "fields": {
+        "first_name": "Corey",
+        "last_name": "Konieczka"
+    }
+},
+{
+    "model": "blog.author",
+    "pk": 9,
+    "fields": {
+        "first_name": "Yves",
+        "last_name": "Rosenbaum"
+    }
+},
+{
+    "model": "blog.author",
+    "pk": 10,
+    "fields": {
+        "first_name": "Fred",
+        "last_name": "Navez"
+    }
+},
+{
+    "model": "blog.author",
+    "pk": 11,
+    "fields": {
+        "first_name": "Jordy",
+        "last_name": "Adan"
+    }
+},
+{
+    "model": "blog.author",
+    "pk": 12,
+    "fields": {
+        "first_name": "Antonin",
+        "last_name": "Boccara"
+    }
+},
+{
+    "model": "blog.author",
+    "pk": 13,
+    "fields": {
+        "first_name": "A. J.",
+        "last_name": "Porfirio"
+    }
+},
+{
+    "model": "blog.editor",
+    "pk": 1,
+    "fields": {
+        "name": "Alone Editions",
+        "web_site": "https://www.aloneeditionsgames.com/"
+    }
+},
+{
+    "model": "blog.editor",
+    "pk": 2,
+    "fields": {
+        "name": "Portal Dragon",
+        "web_site": "https://portaldragon.com/"
+    }
+},
+{
+    "model": "blog.editor",
+    "pk": 3,
+    "fields": {
+        "name": "Ultra PRO",
+        "web_site": "https://www.ultrapro.com/division.php?d=g"
+    }
+},
+{
+    "model": "blog.editor",
+    "pk": 4,
+    "fields": {
+        "name": "Iello",
+        "web_site": "https://www.iello.fr/"
+    }
+},
+{
+    "model": "blog.editor",
+    "pk": 5,
+    "fields": {
+        "name": "Nuts",
+        "web_site": "https://www.nutspublishing.com/"
+    }
+},
+{
+    "model": "blog.editor",
+    "pk": 6,
+    "fields": {
+        "name": "FFG",
+        "web_site": "https://www.fantasyflightgames.com/en/index/"
+    }
+},
+{
+    "model": "blog.editor",
+    "pk": 7,
+    "fields": {
+        "name": "Schmeta Games",
+        "web_site": "https://www.schmetagames.be/fr/index.php"
+    }
+},
+{
+    "model": "blog.editor",
+    "pk": 8,
+    "fields": {
+        "name": "Intrafin Games",
+        "web_site": "http://www.intrafin.eu/fr/"
+    }
+},
+{
+    "model": "blog.editor",
+    "pk": 9,
+    "fields": {
+        "name": "Oldchap Games",
+        "web_site": "http://oldchap.games/fr/"
+    }
+},
+{
+    "model": "blog.editor",
+    "pk": 10,
+    "fields": {
+        "name": "Don't Panic Games",
+        "web_site": "https://www.dontpanicgames.com/fr/"
+    }
+},
+{
+    "model": "blog.game",
+    "pk": 1,
+    "fields": {
+        "title": "The Road",
+        "description": "Encore un excellent jeu de Yossef Farhi qui nous fait prendre la route dans un univers post-apocalyptique. Un Must-have !",
+        "language": "Français",
+        "year": "2021",
+        "image": "the_road_0ABCixC.jpg",
+        "date_created": "2021-08-26T10:35:56.210Z",
+        "has_extension": false,
+        "is_extension": false,
+        "author": [
+            1
+        ],
+        "editor": [
+            1
+        ]
+    }
+},
+{
+    "model": "blog.game",
+    "pk": 2,
+    "fields": {
+        "title": "Palm Island",
+        "description": "Dans Palm Island, vous manipulez les 17 cartes dans votre main afin de produire des ressources, que vous dépenserez pour payer les améliorations et construire de nouveaux bâtiments tels que les marchés, pour la production, ou les temples, pour les points de victoire. Optimisez vos ressources et l’expansion de votre village pour remporter la partie !",
+        "language": "Français",
+        "year": "2019",
+        "image": "palm_island_eoyC5N3.jpg",
+        "date_created": "2021-08-26T10:15:09.394Z",
+        "has_extension": false,
+        "is_extension": false,
+        "author": [
+            2
+        ],
+        "editor": [
+            5
+        ]
+    }
+},
+{
+    "model": "blog.game",
+    "pk": 3,
+    "fields": {
+        "title": "Shards Of Infinity",
+        "description": "Il y a cent ans de cela, le Moteur d'Infinité fut brisé. Ses Eclats se sont alors abattus sur le monde, semant la mort et la destruction. Une prophétie révèle toutefois que quiconque parviendra à réunir les éclats disposera d'une puissance illimitée. C'est votre chance! \r\nVous êtes l'un des rares héros capables de maîtriser les Eclats. Reconstruisez le moteur d'infinité et triomphez de vos adversaires… si vous parvenez à survivre! \r\nAvec Shards of Infinity, les auteurs du multi-primé Ascension reboostent totalement le deckbuilding. Découvrez un jeu de cartes qui associe un niveau de stratégie inégalé à une personnalisation illimitée. Maîtrisez le pouvoir de l'Eclat de l'Infini ou éliminez vos opposants afin de remporter la victoire!",
+        "language": "Français",
+        "year": "2020",
+        "image": "shards_infinity.jpg",
+        "date_created": "2021-08-26T10:13:03.883Z",
+        "has_extension": false,
+        "is_extension": false,
+        "author": [
+            3,
+            4
+        ],
+        "editor": [
+            3,
+            4
+        ]
+    }
+},
+{
+    "model": "blog.game",
+    "pk": 4,
+    "fields": {
+        "title": "Shards Of Infinity - Les Reliques du Futur",
+        "description": "Première extention du jeu de base Shards of Infinity.",
+        "language": "Français",
+        "year": "2020",
+        "image": "shards_infinity_reliques.jpg",
+        "date_created": "2021-08-26T10:28:23.766Z",
+        "has_extension": false,
+        "is_extension": true,
+        "author": [
+            3,
+            4
+        ],
+        "editor": [
+            3,
+            4
+        ]
+    }
+},
+{
+    "model": "blog.game",
+    "pk": 5,
+    "fields": {
+        "title": "One Deck Dungeon",
+        "description": "Choisissez l'un des cinq braves héros pour partir à la conquête d'un des cinq périlleux donjons. Vous utiliserez un mélange de force, de magie et d'agilité afin de surmonter les ennemis et les pièges dressés sur votre chemin. Survivre à une rencontre vous rapportera du butin qui vous rendra plus puissant pour la prochaine rencontre. Plus vous descendez dans le donjon, plus vos adversaires deviendront forts et si vous en atteignez l fond, son gardien vous y attendra.",
+        "language": "Français",
+        "year": "2018",
+        "image": "one_deck_dungeon.jpg",
+        "date_created": "2021-08-26T10:34:00.376Z",
+        "has_extension": false,
+        "is_extension": false,
+        "author": [
+            5
+        ],
+        "editor": [
+            5
+        ]
+    }
+},
+{
+    "model": "blog.game",
+    "pk": 6,
+    "fields": {
+        "title": "Star Realms Frontières",
+        "description": "Les nouveaux portails ont décuplé le potentiel des voyages interstellaires. Des galaxies entières, autrefois inaccessibles, sont désormais à la portée de vos flottes. Tous à vos vaisseaux ! Établissez de nouvelles bases ! Exploitez ces nouvelles ressources et fondez votre royaume des étoiles !\r\n\r\nNouveaux vaisseaux, nouvelles bases et nouvelles stratégies ! Une nouvelle mécanique fait désormais son apparition et vous permet de déclencher des effets supplémentaires dès que vous jouez au moins 3 cartes de la même faction ! Soyez plus attentifs que jamais aux cartes qui composent votre deck… et déclenchez des combos dévastateurs ! \r\n\r\nStar Realms : Frontières est une nouvelle extension autonome pour le célèbre de jeu de Deck building Star Realms. La boîte contient un jeu complet pour 1 à 4 joueurs avec 80 nouvelles cartes Commerce et 8 cartes de défi solo / coopératif surdimensionnées. \r\n\r\nTotalement compatible avec Star Realms et Star Realms : Colony Wars, Star Realms : Frontières peut être joué de manière indépendante ou associé aux autres jeux de la gamme pour des parties toujours plus variées.",
+        "language": "Français",
+        "year": "2020",
+        "image": "star_realms.jpg",
+        "date_created": "2021-08-27T21:24:52.157Z",
+        "has_extension": false,
+        "is_extension": true,
+        "author": [
+            6,
+            7
+        ],
+        "editor": [
+            4
+        ]
+    }
+},
+{
+    "model": "blog.game",
+    "pk": 7,
+    "fields": {
+        "title": "Way of The Samurai",
+        "description": "Du combat de samouraïs dans un jeu de carte comme sait si bien les faire Yossef Farhi.",
+        "language": "fr",
+        "year": "2020",
+        "image": "way_of_samurai.jpg",
+        "date_created": "2021-08-28T08:56:31.841Z",
+        "has_extension": false,
+        "is_extension": false,
+        "author": [
+            1
+        ],
+        "editor": [
+            1
+        ]
+    }
+},
+{
+    "model": "blog.game",
+    "pk": 8,
+    "fields": {
+        "title": "Space Hulk - Death Angel",
+        "description": "Le joueur contrôle une escouade de Space Marines s'aventurant dans les profondeurs d'un énorme Space Hulk. Il va falloir lutter farouchement pour accomplir les missions et venir à bout des hordes de Genestealers. \r\n\"Estimation : 44 % de chances de réussite de la mission avec 86 % de pertes pour l'escouade\"\r\nOn est prévenu !",
+        "language": "fr",
+        "year": "2010",
+        "image": "space_hulk_death_angel.jpg",
+        "date_created": "2021-08-28T09:05:08.989Z",
+        "has_extension": false,
+        "is_extension": false,
+        "author": [
+            8
+        ],
+        "editor": [
+            6
+        ]
+    }
+},
+{
+    "model": "blog.game",
+    "pk": 9,
+    "fields": {
+        "title": "Gangsta!",
+        "description": "Recrutez des gangsters pour renforcer votre gang.\r\nUtiliser leurs compétences pour réaliser les meilleurs casses !\r\nCollectez un maximum de points d'influence afin de remporter la partie",
+        "language": "fr",
+        "year": "2019",
+        "image": "gangsta.jpg",
+        "date_created": "2021-08-28T09:08:53.147Z",
+        "has_extension": false,
+        "is_extension": false,
+        "author": [
+            10,
+            9
+        ],
+        "editor": [
+            7
+        ]
+    }
+},
+{
+    "model": "blog.game",
+    "pk": 10,
+    "fields": {
+        "title": "Cartographers",
+        "description": "La reine Gimnax a ordonné la conquête des terres du Nord. En tant que cartographe à son service, vous êtes envoyé cartographier ce territoire, le revendiquant pour le Royaume de Nalos. Les édits de Gimnax indiquent les terrains qu'elle apprécie le plus, et vous augmenterez votre réputation en répondant à ses demandes.",
+        "language": "fr",
+        "year": "2019",
+        "image": "cartographers.jpg",
+        "date_created": "2021-08-28T09:16:11.662Z",
+        "has_extension": false,
+        "is_extension": false,
+        "author": [
+            11
+        ],
+        "editor": [
+            8
+        ]
+    }
+},
+{
+    "model": "blog.game",
+    "pk": 12,
+    "fields": {
+        "title": "Les pierres de Coba",
+        "description": "Un excellent jeu de dés dans lequel on ne lance pas les dés !  Il nous propose 50 défis scénarisés à la difficulté croissante. Le principe est de placer les dés (pierres de Coba) en deux groupes  qui doivent s'équilibrer.  Chaque pierre blanche représente un personnage de la société Maya qui a une certaine valeur et parfois un certain pouvoir qui peut modifier les valeurs des pierres. \r\nLorsque nous aurons atteint une certaine expérience, les pierres noires représentant les animaux mythiques, plus puissantes, entreront en jeu et corseront les défis.\r\nA vos neurones !",
+        "language": "fr",
+        "year": "2020",
+        "image": "coba.jpg",
+        "date_created": "2021-08-29T13:32:27.287Z",
+        "has_extension": false,
+        "is_extension": false,
+        "author": [
+            12
+        ],
+        "editor": [
+            9
+        ]
+    }
+},
+{
+    "model": "blog.game",
+    "pk": 13,
+    "fields": {
+        "title": "Négociateur  : Prise d'otages",
+        "description": "Dans Négociateur  : Prise d'otages, on incarne un agent charger de parlementer avec un preneur d'otages. Il va falloir temporiser pour contrecarrer ses plans. \r\nLes chances de succès vont dépendre de la capacité à contrôler le niveau de menace. Mais la chance ne se contrôle pas vraiment car les dés peuvent être impitoyables nous rappelant que parfois rien ne se passe comme on avait prévu et ce malgré l'expérience et la préparation.",
+        "language": "fr",
+        "year": "2017",
+        "image": "negociateur_prise_otages.jpg",
+        "date_created": "2021-08-29T13:41:07.198Z",
+        "has_extension": false,
+        "is_extension": false,
+        "author": [
+            13
+        ],
+        "editor": [
+            10
+        ]
+    }
+},
+{
+    "model": "blog.news",
+    "pk": 1,
+    "fields": {
+        "title": "Blog en construction",
+        "content": "Bonjour à toutes les joueuses  et à tous les joueurs solos !\r\nJe me lance dans la merveilleuse aventure de création d'un blog sur les jeux de plateau solo. Ces news vont donc servir dans un premier temps à évoquer l'avancée des travaux afin de suivre l'évolution du chantier (Je me présenterai plus tard).\r\n\r\nJ'ai mis en place la base de donnée pour pouvoir ajouter des jeux, des news (comme celle-ci) et le design de base du site. Tout cela va, bien entendu, évoluer.\r\nActuellement, je suis entrain de créer la page d'accueil qui va afficher les derniers jeux de ma ludothèque et les dernières news, donc celle-ci.\r\n\r\nJ'ai du code à taper alors on se retrouve plus tard !",
+        "date_created": "2021-08-26T14:29:18.645Z",
+        "image": ""
+    }
+},
+{
+    "model": "blog.news",
+    "pk": 2,
+    "fields": {
+        "title": "La ludothèque prend forme",
+        "content": "Le chantier avance. Je viens de mettre en place la page de la ludothèque qui va afficher tous les jeux que je possède. \r\nPour ne pas surcharger cette page et pour éviter que l'utilisateur ne scrolle à s'en faire une crampe à l'index, j'ai implémenté un système de pagination. C'est bien plus ergonomique.\r\nJe vais m'accorder une petite pause.  Et si je me faisais une petite partie  ?",
+        "date_created": "2021-08-26T17:18:30.798Z",
+        "image": ""
+    }
+},
+{
+    "model": "blog.news",
+    "pk": 3,
+    "fields": {
+        "title": "Une fonctionnalité de plus !",
+        "content": "Je viens de rajouter un champs de recherche permettant à l'utilisateur de chercher un jeu pour afficher ses détails.\r\nJ'ai modifié l'affichage de la page d'accueil en réduisant le nombre d'infos mais en rajoutant un lien pour lire le contenu en entier. \r\nProchaines étapes : l'affichage de toutes les news et créer un formulaire de contact\r\n\r\nAu boulot !",
+        "date_created": "2021-08-27T20:46:57.100Z",
+        "image": ""
+    }
+},
+{
+    "model": "blog.news",
+    "pk": 4,
+    "fields": {
+        "title": "Page des News FAITE !",
+        "content": "Tout est dit dans le titre. La page des news est donc  fonctionnelle. \r\nParallèlement je continue à ajouté les jeux à la base de donnée pour étoffer le blog.",
+        "date_created": "2021-08-29T13:55:29.067Z",
+        "image": ""
+    }
+}
+]
