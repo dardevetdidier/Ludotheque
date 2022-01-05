@@ -1,4 +1,5 @@
 from django.db import models
+from cloudinary.models import CloudinaryField
 
 
 class Author(models.Model):
@@ -29,7 +30,7 @@ class Game(models.Model):
     editor = models.ManyToManyField(Editor)
     language = models.CharField(max_length=150, choices=LANGUAGES, blank=True)
     year = models.CharField(max_length=4)
-    image = models.ImageField(upload_to='images/', blank=True)
+    image = CloudinaryField('image')
     date_created = models.DateTimeField(auto_now=True)
     has_extension = models.BooleanField(default=False)
     is_extension = models.BooleanField(default=False)
