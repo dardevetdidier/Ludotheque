@@ -12,7 +12,8 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 import os
 from pathlib import Path
 import dj_database_url
-
+import cloudinary
+import cloudinary_storage
 import django_heroku
 from dotenv import load_dotenv
 
@@ -43,8 +44,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'cloudinary_storage',
     'cloudinary',
+    'cloudinary_storage',
     'blog',
 ]
 
@@ -151,5 +152,6 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedStaticFilesStorage'
+
 
 django_heroku.settings(locals())
