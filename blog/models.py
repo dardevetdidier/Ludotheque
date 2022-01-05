@@ -19,17 +19,6 @@ class Editor(models.Model):
     def __str__(self):
         return f"{self.name}"
 
-#
-# class Extension(models.Model):
-#     name = models.CharField(max_length=100)
-#     year = models.CharField(max_length=4)
-#
-#     class Meta:
-#         ordering = ['name']
-#
-#     def __str__(self):
-#         return f"{self.name} ({self.game_set('title')})"
-
 
 class Game(models.Model):
     LANGUAGES = [('fr', 'Francais'),
@@ -40,9 +29,8 @@ class Game(models.Model):
     editor = models.ManyToManyField(Editor)
     language = models.CharField(max_length=150, choices=LANGUAGES, blank=True)
     year = models.CharField(max_length=4)
-    image = models.ImageField()
+    image = models.ImageField(upload_to='images/', blank=True)
     date_created = models.DateTimeField(auto_now=True)
-    # extension = models.ForeignKey(Extension, on_delete=models.CASCADE, blank=True, null=True)
     has_extension = models.BooleanField(default=False)
     is_extension = models.BooleanField(default=False)
 
