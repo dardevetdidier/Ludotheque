@@ -1,1 +1,1 @@
-web: gunicorn ludotheque.wsgi --log-file -
+web gunicorn ludotheque.wsgi --log-file -
