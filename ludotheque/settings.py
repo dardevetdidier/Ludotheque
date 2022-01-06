@@ -67,7 +67,7 @@ DEBUG_PROPAGATE_EXCEPTIONS = True
 SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['https://ludotheque-v01.herokuapp.com/', '127.0.0.1', ]
 
