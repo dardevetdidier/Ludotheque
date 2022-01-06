@@ -220,6 +220,10 @@ h5 {
     text-align: center;
 }
 
+.card-title {
+    margin-left: 1rem;
+}
+
 /*DETAILS*/
 
 #back-btn-detail {
